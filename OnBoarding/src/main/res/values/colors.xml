@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    //onboarding colors
+    <color name="on_boarding_background">#F0F4F3</color>
+    <color name="on_boarding_button_text">#50C2C9</color>
+
+    //indicator color
+    <color name="on_boarding_inactive">#C4C4C4</color>
+    <color name="on_boarding_active">#50C2C9</color>
+
+</resources>

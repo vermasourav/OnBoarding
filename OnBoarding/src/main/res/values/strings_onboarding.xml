@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="boarding_title">Title</string>
+    <string name="boarding_previous">Back</string>
+    <string name="boarding_next">Next</string>
+    <string name="boarding_skip">Skip</string>
+
+    <string name="txt_image_desc_boarding">on boarding image</string>
+
+    //Headings
+    <string name="boarding_heading_one">Heading One</string>
+    <string name="boarding_heading_two">Heading Two</string>
+    <string name="boarding_heading_three">Heading Three</string>
+    <string name="boarding_heading_four">Heading Four</string>
+
+    //Description
+    <string name="boarding_desc_one">desc one</string>
+    <string name="boarding_desc_two">desc two</string>
+    <string name="boarding_desc_three">desc three</string>
+    <string name="boarding_desc_four">desc four</string>
+
+</resources>

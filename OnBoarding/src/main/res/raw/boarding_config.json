@@ -1,0 +1,28 @@
+{
+  "header": "Header Json",
+  "next": "Next",
+  "previous": "Back",
+  "skip": "Skip",
+  "onboards": [
+    {
+      "heading": "Heading One Json",
+      "description": "desc one Json",
+      "image": "boarding_image_1"
+    },
+    {
+      "heading": "Heading Two",
+      "description": "desc two",
+      "image": "boarding_image_2"
+    },
+    {
+      "heading": "Heading Three",
+      "description": "desc three",
+      "image": "boarding_image_3"
+    },
+    {
+      "heading": "Heading Four",
+      "description": "desc four",
+      "image": "boarding_image_4"
+    }
+  ]
+}

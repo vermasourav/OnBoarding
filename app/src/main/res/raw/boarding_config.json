@@ -1,0 +1,23 @@
+{
+  "header": "On Boarding",
+  "next": ">>",
+  "previous": "<<",
+  "skip": "Skip",
+  "onboards": [
+    {
+      "heading": "Heading 1",
+      "description": "desc 1",
+      "image": "boarding_image_1"
+    },
+    {
+      "heading": "Heading 2",
+      "description": "desc 2",
+      "image": "boarding_image_2"
+    },
+    {
+      "heading": "Heading 3",
+      "description": "desc 3",
+      "image": "boarding_image_3"
+    }
+  ]
+}

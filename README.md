@@ -28,6 +28,11 @@ dependencies {
    Or
     implementation 'com.github.vermasourav:OnBoarding:Tag'
 }
+
+Stable Version
+
+implementation com.github.vermasourav:OnBoarding:1.0.5
+
 ```
 
 

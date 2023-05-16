@@ -10,7 +10,7 @@
         android:id="@+id/img_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="2dp"
         android:src="@drawable/boarding_image_1"
         android:contentDescription="@string/txt_image_desc_boarding" />
 
@@ -18,7 +18,7 @@
         android:id="@+id/txt_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="20dp"
         android:text="@string/boarding_heading_one"
         android:textAlignment="center"
         android:textColor="@android:color/black"

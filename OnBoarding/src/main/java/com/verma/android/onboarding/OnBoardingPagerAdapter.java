@@ -64,6 +64,7 @@ public class OnBoardingPagerAdapter extends PagerAdapter {
                     .placeholder(R.drawable.boarding_image_error) // any placeholder to load at start
                     .error(R.drawable.boarding_image_error)  // any image in case of error
                     .centerCrop()
+                    .fitCenter()
                     .into(slideTitleImage);
         } else {
             int id = context.getResources().getIdentifier(image, "drawable", context.getPackageName());
@@ -72,6 +73,7 @@ public class OnBoardingPagerAdapter extends PagerAdapter {
                     .placeholder(R.drawable.boarding_image_error) // any placeholder to load at start
                     .error(R.drawable.boarding_image_error)  // any image in case of error
                     .centerCrop()
+                    .fitCenter()
                     .into(slideTitleImage);
         }
 

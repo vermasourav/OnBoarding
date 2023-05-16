@@ -1,7 +1,7 @@
 {
   "header": "On Boarding",
-  "next": ">>",
-  "previous": "<<",
+  "next": "Next",
+  "previous": "Back",
   "skip": "Skip",
   "onboards": [
     {

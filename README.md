@@ -2,13 +2,9 @@
 
 ## Screenshots
 
-<img<img src="https://github.com/vermasourav/OnBoarding/blob/main/Screenshots/screen_1.png" width="250px" />
-src="https://github.com/vermasourav/OnBoarding/blob/main/Screenshots/screen_1.png" width="250px" />
+<img src="https://github.com/vermasourav/OnBoarding/blob/main/Screenshots/screen_1.png" width="250px" />
 
-
-
-<img<img src="https://github.com/vermasourav/OnBoarding/blob/main/Screenshots/screen_2.png" width="250px" />
-src="https://github.com/vermasourav/OnBoarding/blob/main/Screenshots/screen_2.png" width="250px" />
+<img src="https://github.com/vermasourav/OnBoarding/blob/main/Screenshots/screen_2.png" width="250px" />
 
 
 ## Installation

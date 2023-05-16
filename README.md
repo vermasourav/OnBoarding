@@ -31,10 +31,47 @@ dependencies {
 
 Stable Version
 
-implementation com.github.vermasourav:OnBoarding:1.0.5
+implementation com.github.vermasourav:OnBoarding:1.0.6
 
 ```
 
+Then activity to your app AndroidManifest.xml file.
+
+```
+      <activity
+            android:name="com.verma.android.onboarding.OnBoardingActivity"
+            android:exported="true">
+        </activity>
+```
+
+
+
+Add Json file (boarding.config.json) at res/raw folder
+```
+    {
+        "header": "On Boarding",
+        "next": "Next",
+        "previous": "Back",
+        "skip": "Skip",
+        "onboards": [
+        {
+            "heading": "Heading 1",
+            "description": "desc 1",
+            "image": "boarding_image_1"
+        },
+        {
+            "heading": "Heading 2",
+            "description": "desc 2",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/6/66/Sachin-Tendulkar.jpg"
+        },
+        {
+            "heading": "Heading 3",
+            "description": "desc 3",
+            "image": "boarding_image_3"
+    }
+  ]
+}
+```
 
 
 ## License

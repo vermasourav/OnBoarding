@@ -2,7 +2,7 @@ plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
 }
-apply from: rootProject.file('./app/signing.gradle')
+//apply from: rootProject.file('./app/signing.gradle')
 
 
 android {
@@ -26,6 +26,10 @@ android {
     buildTypes {
         release {
             minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+       /* release {
+            minifyEnabled false
             shrinkResources false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             debuggable false
@@ -33,7 +37,7 @@ android {
             renderscriptDebuggable false
             zipAlignEnabled true
             signingConfig signingConfigs.KEY
-        }
+        }*/
         debug {
             debuggable true
             minifyEnabled false

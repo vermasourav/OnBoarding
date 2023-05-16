@@ -31,7 +31,7 @@ dependencies {
 
 Stable Version
 
-implementation com.github.vermasourav:OnBoarding:1.0.6
+implementation com.github.vermasourav:OnBoarding:1.0.7
 
 ```
 

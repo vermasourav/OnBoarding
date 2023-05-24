@@ -73,6 +73,27 @@ Add Json file (boarding.config.json) at res/raw folder
 }
 ```
 
+Launch
+```
+public void launchOnBoarding(){
+      Intent intent = new Intent(this, OnBoardingActivity.class);
+     onBoardingLauncher.launch(intent);
+}
+
+
+private ActivityResultLauncher<Intent> onBoardingLauncher = registerForActivityResult(
+            new ActivityResultContracts.StartActivityForResult(),
+            result -> {
+                if (result.getResultCode() == Activity.RESULT_OK) {
+                    //Do Task OnBoarding Done
+                    Intent data = result.getData();
+                    Intent intent = new Intent(this, StartScreen.class);
+                    startActivity(intent);
+                }
+            });
+            
+```
+
 
 ## License
 

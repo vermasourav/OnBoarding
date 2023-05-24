@@ -85,10 +85,8 @@ private ActivityResultLauncher<Intent> onBoardingLauncher = registerForActivityR
             new ActivityResultContracts.StartActivityForResult(),
             result -> {
                 if (result.getResultCode() == Activity.RESULT_OK) {
-                    //Do Task OnBoarding Done
-                    Intent data = result.getData();
-                    Intent intent = new Intent(this, StartScreen.class);
-                    startActivity(intent);
+                    //Do Task After OnBoarding Done
+                 
                 }
             });
             

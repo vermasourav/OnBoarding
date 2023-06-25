@@ -46,7 +46,7 @@ Then activity to your app AndroidManifest.xml file.
 
 
 
-Add Json file (boarding.config.json) at res/raw folder
+Add Json file (boarding_config.json) at res/raw folder
 ```
     {
         "header": "On Boarding",
@@ -74,6 +74,7 @@ Add Json file (boarding.config.json) at res/raw folder
 ```
 
 Launch
+
 ```
 public void launchOnBoarding(){
       Intent intent = new Intent(this, OnBoardingActivity.class);
